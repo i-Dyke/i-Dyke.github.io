@@ -1,17 +1,38 @@
+/*
+Main body color: https://colorhunt.co/palette/331d2c3f2e3ea78295efe1d1
+*/
+
+:root {
+  --bgcol1: #331D2C;
+  --bgcol2: #3F2E3E;
+  --bgcol3: #A78295;
+  --bgcol4: #EFE1D1;
+}
+
+#bgcolite_1 { background-color: #bdfffc}
+#bgcolite_2 { background-color: #f5abab}
+#bgcolite_3 { background-color: #b691cf;}
+#bgcolite_4 { background-color: #f1d0b0}
+
+
 body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background-color: #1f1f1f; /* Background color */
-  color: #baa8a8; /* Text color */
+  background-color: var(--bgcol1) !important;  /*Background color */
+  color: #EFE1D1; /* Text color */
 }
 
 .container {
   width: 100%;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 5px auto;
   padding: 20px;
   box-sizing: border-box;
+  background-color: var(--bgcol2);
+  border-radius: 3px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+
 }
 
 /* Top Banner for fitment */
@@ -34,13 +55,16 @@ body {
 }
 
 
+
 .header {
-  background-color: #ffca08; /* Header background color */
+  background-color: var(--bgcol3); /* Header background color */
   color: #fff; /* Header text color */
   padding: 20px;
   text-align: center;
   /*text-decoration-line: ;*/
   /*font-style: italic;*/
+  font-size: 2em;
+  border-radius: 12px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .subhead {
@@ -48,20 +72,41 @@ body {
   /*text-decoration-line: underline;*/
   /*text-decoration-style: wavy;*/
 }
-
 .content {
   padding: 20px;
   color: #fff; /* Basic text color */
 }
 .footer {
-  background-color: #404040; /* Footer background color */
+  background-color: var(--bgcol1); /* Footer background color */
   color: #fff; /* Footer text color */
   padding: 20px;
   text-align: center;
 }
+
+
+
 .pagelink {
-  text-align: center;
-}    
+  display: flex;
+  padding: 12px 20px;
+
+  margin: 0 auto;
+
+  margin-top: 3px;
+  margin-bottom: 3px;
+
+  width: fit-content;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 8px;
+  background-color: #fff;
+  
+  cursor: pointer;
+
+  text-decoration: none;
+  border: none;
+}   
+
 .inlinelink {
   text-align: left;
 }    
@@ -76,6 +121,7 @@ body {
   border-radius: 4px;
   cursor: pointer;
 }
+
 .button:hover {
   background-color: #359edb
 }
