@@ -83,8 +83,6 @@ body {
   text-align: center;
 }
 
-
-
 .pagelink {
   display: flex;
   padding: 12px 20px;
@@ -121,9 +119,21 @@ body {
   border-radius: 4px;
   cursor: pointer;
 }
-
 .button:hover {
   background-color: #359edb
+}
+
+.projsumm {
+  display: flex;
+  padding: 10px 20px;
+  background-color: var(--bgcol1);
+  color: #fff;
+  border: #000000;
+  border-width: 4px;
+  border-radius: 8px;
+}
+.projsummtitle {
+  text-align: center;
 }
 
 ol.center {
