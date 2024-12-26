@@ -17,6 +17,8 @@ Main body color: https://colorhunt.co/palette/331d2c3f2e3ea78295efe1d1
 /* Fixing hyperlink color to be visible */
 a {
   color: var(--bgcol4);
+  target: "_blank";
+  rel: "noopener noreferrer";
 }
 
 body {
@@ -157,16 +159,21 @@ ol.center {
   opacity: 1; /* When in view, fade in */
 }
 
-.grid-container {
+.grid-container-r {
   display: grid;
   grid-template-columns: 1fr 2fr;
+  gap: 12px;
+}
+.grid-container-l {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
   gap: 12px;
 }
 .field {
   padding:10px;
   border: 0px;
   background-color: var(--bgcol2);
-  padding: 4px 8px;
+  padding: 8px 24px;
   border-width: 4px;
   border-radius: 8px;
 }
