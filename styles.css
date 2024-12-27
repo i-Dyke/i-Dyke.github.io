@@ -9,10 +9,14 @@ Main body color: https://colorhunt.co/palette/331d2c3f2e3ea78295efe1d1
   --bgcol4: #EFE1D1;
 }
 
-#bgcolite_1 { background-color: #bdfffc}
-#bgcolite_2 { background-color: #f5abab}
-#bgcolite_3 { background-color: #b691cf;}
-#bgcolite_4 { background-color: #f1d0b0}
+#bgcollite_1 { background-color: #bdfffc}
+#bgcollite_2 { background-color: #f5abab}
+#bgcollite_3 { background-color: #b691cf;}
+#bgcollite_4 { background-color: #f1d0b0}
+#bgcoldark_1 { background-color: #458783}
+#bgcoldark_2 { background-color: #734949}
+#bgcoldark_3 { background-color: #563c68;}
+#bgcoldark_4 { background-color: #875e35}
 
 /* Fixing hyperlink color to be visible */
 a {
