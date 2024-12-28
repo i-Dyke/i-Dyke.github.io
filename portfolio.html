@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <title>Project Portfolio IJDyke</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -25,10 +25,10 @@
         </div>
     </div>
 
-    <div class="buttons"></div>
+    <div class="sort-buttons"></div>
 
     <div class="projects">
-        <div class="project" data-category="Robotics,Open-Source">
+        <div class="project" data-attributes="Robotics, Open-Source, Python">
             
             <div class="grid-container-r">
 
@@ -58,42 +58,219 @@
                             Minimized Cost balanced with Capable Performance
                         </li>
                         <li>
-                            Open-Source availability, build with public toolsFull Analysis & Justification of All Design Decisions
+                            Open-Source availability, build with public tools
                         </li>
+                        <li>
+                            Full Analysis & Justification of All Design Decisions
+                        </li>
+                    </p>
+
+                    <a href="https://github.com/i-Dyke/MOHRA/blob/main/report_full/EMAE398_MOHRA%20Final%20Report.pdf" class="button" target="_blank">
+                        View the Final Report - GIthub
+                    </a>
+                    <a href="https://cad.onshape.com/documents/2f06a723b5133ea2cd212c2c/w/8daea5c17e55fdaa495075ae/e/3018097c61d9197e23384d87?configuration=List_awRsvgP82Aby0L%3DExportable&renderMode=0&uiState=676f4362b450ec515e653dd1" class="button" target="_blank">
+                        View the Full Model - OnShape
+                    </a>
+                    <a href="https://github.com/i-Dyke/MOHRA/blob/main/README.md" class="button" target="_blank">
+                        View the Code Repo - Github
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="project" data-attributes="Open-Source, Manufacturing, Python">
+            <div class="grid-container-r">
+                <div class="field">
+                    <img src="./proj/gearage/CurveToothGears.gif" alt="Curve tooth gears meshing">
+                </div>
+
+                <div class="field">
+                    <p class="sectitle">
+                        Gear Generation Repo
+                    </p>
+                    <p class="secsubtitle">
+                        gearage
+                        <br>
+                        <i>Initiated 2024</i>
+                    </p>
+                    <p>
+                        Leverage exposure & intuitions developed working an industrial gear-making internship to 
+                        evolve publically available but hard-to-understand gear design mathematics and principles
+                        into more comprehensible & accessible code.
+                    </p>
+                    <p>
+                        <i>Not just drawing an involute curve on a circle:</i> 
+                        <li>
+                            General conjugate action tooth-form generation.
+                        </li>
+                        <li>
+                            Geometric justifications of underlying trigonomtry and calculus.
+                        </li>
+                        <li>
+                            Utility to real-world manfuacturing, in layout and quality control.
+                        </li>
+                        <li>
+                            Full gear-form generation; trochoidal roots, backlash. <i>(tbd)</i>
+                        </li>
+                    </p>
+                    
+                    <a href="https://github.com/i-Dyke/gearage" class="button" target="_blank">View the Github</a>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="project" data-attributes="Automotive, Testing, BajaSAE, Manufacturing, Biz Relations">
+            <div class="grid-container-l">
+                <div class="field">
+                    <p class="sectitle">
+                        <b>Sprag Element Clutch Integration</b>
+                    </p>
+                    <p class="secsubtitle">
+                        BajaSAE, 2021-2023 Seasons
+                    </p>
+                    
+                <p>
+                    From SR21 competition vehicle, we found that the existing front
+                    wheel drive overrunning clutches were fully unsuitable for 
+                    off-road, high-intensity service. Immediate need for a new option 
+                    for upcoming years' deepening reliance on FWD performance.
+                </p>
+                <p>
+                    <li>
+                        Investigate industrial clutch element options.
+                    </li>
+                    <li>
+                        In-depth communication with manufacturers on specifications, implementation details.
+                    </li>
+                    <li>
+                        Organizing sponsorship arrangements and ongoing business relationships.
+                    </li>
+                    <li>
+                        Calculation and specification of press-fit tolerances for non-standard bearing housings.
+                    </li>
+                    <li>
+                        Real-world testing, modeling of press-fit performance.
+                    </li>
+                </p>
+                </div>
+                
+                <div class="field">
+                    <img src="./proj/sprag/sprag-bg.png" alt="sprag">
+                </div>
+            </div>
+        </div>
+
+        <div class="project" data-attributes="Automotive, FEA, BajaSAE, Testing, Manufacturing">
+            <div class="grid-container-r">
+                <div class="field">
+                    <img src="./proj/tl/sr24_fulltlassem_bench.jpg" alt="SR24 Torq Lim">
+                </div>
+
+                <div class="field">
+                    <p class="sectitle">
+                        <b>Four Wheel Drive Torque Limiter</b>
+                    </p>
+                    <p class="secsubtitle">
+                        BajaSAE, 2021-2024 Seasons
+                    </p>
+                    
+                    <p>
+                        New rules-required front wheel drive system found to have 
+                        highly volatile and poorly understood load behavior through
+                        the front drivetrain system. 
+                    </p>
+                    <p>
+                        Defined a new project to implement a 'mechanical fuse' into the 
+                        system to mitigate overloads, enable further lightweighting of
+                        outboard componnets (less unsprung mass, increased compliance
+                        for suspension design), and allow for empirical evaluation
+                        of typical load behavior in competition conditions.
+
+                        <li>
+                            Research and novel implemenation of a tunable friction clutch.
+                        </li>
+                        <li>
+                            Project management - scope, timelines, and design reviews with senior engineers.
+                        </li>
+                        <li>
+                            Early exposure to standard mechanical design analysis; <i>pinned joints, load analysis, thread shear, etc.</i>
+                        </li>
+                        <li>
+                            Stress analysis and iterative lightweighting design with FEA.
+                        </li>
+                        
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="project" data-attributes="Automotive, FEA, BajaSAE, 3DP">
+            <div class="grid-container-l">
+                
+                <div class="field">
+                    <img src="./proj/titaniumshaft/RearShaftFEA-0deg_AllLoad-Displacement_crop.gif" alt="Rear Shaft Deformation FEA">
+                </div>
+        
+                <div class="field">
+                    <p class="sectitle">
+                        3D Printed Titanium
+                        <br>
+                        Rear Load-Bearing Drive Shafts
+                    </p>
+                    <p class="secsubtitle">
+                        BajaSAE, 2024 Season
                     </p>
                 </div>
             </div>
         </div>
     </div>
+    <script src="./scripts/sort.js"></script>
+</body>
 
-
-    <div class="project" data-category="app">
-        <div class="grid-container-l">
-            <div class="field">
-                <img src="./proj/mohra/MOHRA_v0.png" alt="machined open-source humanoid robot">
-            </div>
     
-            <div class="field">
-                <p class="sectitle">
-                    <b>MOHRA</b>
-                </p>
-                <p class="secsubtitle">
-                    Machined Open Source Humanoid Robot
-                    <br>
-                    <i>Senior Project 2024</i>
-                </p>
-            </div>
-        </div>
+<div class="container">
+
+    <div class = "subhead">
+        <p>
+            <b>LEGACY</b>
+            <br>
+            <i>Full Portfolio Powerpoints</i>
+        </p>
     </div>
 
 
-</body>
+    <a href="https://github.com/i-Dyke/i-Dyke.github.io/raw/refs/heads/main/media/ProjectPortfolio_ijd_2024m10d15.ppsx" class="button">
+        2020-2024 Engineering Projects 
+    </a>
+
+    <div class = "subhead">
+        <p>
+            <ul>Individual Sections</ul>
+        </p>
+    </div>
+
+    
+    <ol class = "inlinelink">
+        <li><a href="https://github.com/i-Dyke/i-Dyke.github.io/raw/refs/heads/main/media/ProjectPortfolio_ijd_Sprags_2024m10d15.ppsx">2021-2023: CWRU Motorsports, Sprag Element Clutches </a></li>
+
+        <li><a href="https://github.com/i-Dyke/i-Dyke.github.io/raw/refs/heads/main/media/ProjectPortfolio_ijd_TorqLim_2024m10d15.ppsx">2021-2024: CWRU Motorsports, Torque Limiter </a></li>
+
+        <li><a href="https://github.com/i-Dyke/i-Dyke.github.io/raw/refs/heads/main/media/ProjectPortfolio_ijd_PrintedShafts_2024m10d15.ppsx">2024: CWRU Motorsports, Titanium Shafts </a></li>
+
+        <li><a href="https://github.com/i-Dyke/i-Dyke.github.io/raw/refs/heads/main/media/ProjectPortfolio_ijd_Gears_2024m10d15.ppsx">2022-2024: Personal, Gear Optimization & Geometry </a></li>
+    </ol>
+   
+</div>
+</div>
 
 <div class="container">
     <div class="footer">
         <a href="index.html" class="button">Homepage</a>
 
-        <img src="https://raw.githubusercontent.com/i-Dyke/i-Dyke.github.io/main/sig_blue_bgremove.png" alt="PNG of Signature" width = "250" height = "100">
+        <img src="./assets/sig_blue_bgremove.png" alt="PNG of Signature" width = "250" height = "100">
     </div>
 </div>
 
