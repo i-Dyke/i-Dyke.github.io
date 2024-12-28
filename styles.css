@@ -110,16 +110,12 @@ body {
   text-decoration: none;
   border: none;
 }   
-
 .inlinelink {
   text-align: left;
 }    
 
-.buttons{
-  margin-bottom: 20px;
-}
 .button {
-  display: block;
+  display: flex;
   padding: 10px 20px;
   background-color: #2a91cc;
   color: #fff;
@@ -127,11 +123,47 @@ body {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-}
-.button:hover {
-  background-color: #359edb
+  text-align: center; /* Center text inside the button */
+  justify-self: center;
+  gap: 3px 3px;
+  margin: 5px 5px;
 }
 
+.sort-buttons {
+  text-size-adjust: 75%;
+  display: grid;
+  margin-bottom: 10px;
+  grid-template-columns: repeat(4, 1fr); /* Create a 5-column grid */
+  gap: 5px; /* Space between sort-buttons */
+  justify-content: center; /* Center the grid horizontally */
+  margin: 20px auto; /* Add vertical spacing and center the container */
+  max-width: 700px; /* Limit the width for better centering */
+}
+.sort-button {
+  text-size-adjust: 75%;
+  padding: 10px 20px;
+  background-color: var(--bgcol3);
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center; /* Center text inside the button */
+  gap: 3px 3px;
+  margin: 2px 2px;
+  justify-content: center;
+}
+.sort-button:hover {
+  background-color: #359edb
+}
+.sort-button.selected {
+  background-color: #1c4f6d; /* Example: green background for the selected state */
+  color: white; /* Ensure text is readable */
+  font-weight: bold; /* Optional: emphasize the selected button */
+}
+
+
+/* -- Portfolio -- */
 .projects {
   display: flex;
   flex-wrap: wrap;
@@ -140,16 +172,19 @@ body {
   padding: 20px;
 }
 .project {
-  border: 1px solid #ccc;
+  border: 0;
   border-radius: 5px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .project img {
+  display: inline-block;
   width: 100%;
   object-fit:contain;
   object-position: center;
-  vertical-align: middle;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 .project .content {
   padding: 10px;
@@ -162,6 +197,7 @@ body {
 .project .content p {
   color: #555;
 }
+
 
 ol.center {
   display: inline-block;
@@ -178,10 +214,13 @@ ol.center {
   display: none;
 }
 
+
+
 .fade-in {
   opacity: 1; /* When in view, fade in */
 }
 
+/* -- 2/3 Left and 2/3 Right Layout Elements -- */
 .grid-container-r {
   display: grid;
   grid-template-columns: 1fr 2fr;
