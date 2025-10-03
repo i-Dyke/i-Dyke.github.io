@@ -1,5 +1,11 @@
 ---
 title: Hello from Ian, and Welcome!
+description:
+draft: false
+aliases: intro index homepage
+tags:
+image:
+last-modified:
 ---
 
 I'm working to bring humanoids into the real world 🦾! Mechanical Engineer by trade, coder by necessity, and roboticist by interest. 
@@ -16,5 +22,7 @@ And my current projects, WIP:
 
 - [[gearage]], an in-depth toolkit and explainer on Gear Geometry
 
-_For a full background and legacy designs, check out my [[personalPortfolio]]._
+_For a full background and legacy designs, check out my [resumeWorks](resumeWorks.md)._
+
+To see what else I find interesting, start [here...](./landingPage.md)
 
