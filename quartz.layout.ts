@@ -40,7 +40,7 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.Explorer({
       filterFn: (node) => {
-        const omit = new Set(["obsidiantemplate", "images"])
+        const omit = new Set(["obsidiantemplate", "assets"])
         return !omit.has(node.displayName.toLowerCase())
       },
       mapFn: (node) => {

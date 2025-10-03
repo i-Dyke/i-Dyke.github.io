@@ -19,6 +19,9 @@ Returning to the team full-time in the fall, serving as an advisor and part-time
 - Enabled the redraft of the technical timeline, conducting 1-on-1s with team leadership and leading whole-team review sessions.
 - Single-handedly created and implemented a new full-club wiki and documentation repository, providing detailed cultural and technical knowledge for the 2025 new-project implementation trip.
 
+## BMT Aerospace Process Engineering Intern
+#todo 
+
 ---
 # 2023
 
@@ -34,21 +37,27 @@ Returning to the team full-time in the fall, serving as an advisor and part-time
 
 ### Implementation Trip
 
+
+#todo
+## Holcim USA Mechanical Engineering Intern
+#todo
+
 ---
 # 2022  
 
 ## [[CWRU Motorsports]] Sprag-Element Clutches
 
-## Tylok Valves, Co-Op
+## Tylok Valves, Co-Op Design Engineer
 
 ### Latch-Lok Valve Inception
 
-Since been designed 
+#todo
 
 ### Safety Fixture for Processing
+#todo
 
 ---
-# 2021 :: First Year of University
+# 2021 
 
 ## [[CWRU Motorsports]] Torque Limiter
 Designed and tested the team's first ever torque limiter for use in the new Four-Wheel-Drive system.
@@ -56,3 +65,12 @@ Designed and tested the team's first ever torque limiter for use in the new Four
 - Provided adjustability for tuning and preliminary data collection of torque delivery to the front wheels.
 - Integrated into the tight packaging requirements of a re-used 2WD frame toebox design.
 
+
+---
+# Others:
+
+Sigma Phi Epsilon Academics Chair, 2021-2022
+Eagle Scout, 2020
+
+---
+# Even Older...
