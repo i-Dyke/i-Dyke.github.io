@@ -38,7 +38,17 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      filterFn: (node) => {
+        const omit = new Set(["obsidiantemplate", "assets"])
+        return !omit.has(node.displayName.toLowerCase())
+      },
+      mapFn: (node) => {
+        if (node.isFolder) {
+          node.displayName = "📁 " + node.displayName
+        }
+      }
+    }),
   ],
   right: [
     Component.Graph(),
